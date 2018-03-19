@@ -1,0 +1,74 @@
+body {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-image: url('assets/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  background-color: darkblue;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  width: 95%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin: 0 10rem;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 0.5rem 0;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.samplePagesContainer {
+  margin: 3rem 0;
+}
+
+.samplePage {
+  width: 25%;
+  margin: 1rem;
+}
+
+.webPageInfo {
+}
+
+.purchaseImgBtn {
+  width: 25%;
+}
